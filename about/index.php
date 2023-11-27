@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("Об ассоциации");
                         Восстановление и реконструкция судов
                     </div>
                 </a>
-                <a href="#" class="projects__unit">
+                <a href="/about/partnership" class="projects__unit">
                     <div class="projects__img">
                         <img src="<?= SITE_TEMPLATE_PATH ?>/img/p4.74dd90a5.jpg" alt=""/>
                     </div>
@@ -88,7 +88,7 @@ $APPLICATION->SetTitle("Об ассоциации");
                         Партнёрство и выставочная деятельность
                     </div>
                 </a>
-                <a href="#" class="projects__unit">
+                <a href="/about/publishing" class="projects__unit">
                     <div class="projects__img">
                         <img src="<?= SITE_TEMPLATE_PATH ?>/img/p5.0e426b6d.jpg" alt=""/>
                     </div>
