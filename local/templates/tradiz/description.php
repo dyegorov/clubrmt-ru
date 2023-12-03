@@ -1,6 +1,8 @@
-<?php
-
-$arTemplate = [
-    'NAME' => 'Шаблон главной страницы',
-    'DESCRIPTION' => 'Описание шаблона главной страницы...',
-];
+<?
+$arTemplate = array (
+  'NAME' => 'Sea tradition',
+  'DESCRIPTION' => 'Sea tradition new template',
+  'SORT' => '',
+  'TYPE' => '',
+);
+?>

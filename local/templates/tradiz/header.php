@@ -40,14 +40,11 @@
                             <li class="nav__subitem"><a href="/about">Об Ассоциации</a></li>
                             <li class="nav__subitem"><a href="/photo">Фотогалерея</a></li>
                             <li class="nav__subitem">
-                                <a href="#">Структура управления</a>
+                                <a href="/structure">Структура управления</a>
                             </li>
+                            <li class="nav__subitem"><a href="/members">Почетные члены</a></li>
                             <li class="nav__subitem">
-                                <a href="#">Уставные документы</a>
-                            </li>
-                            <li class="nav__subitem"><a href="#">Почетные члены</a></li>
-                            <li class="nav__subitem">
-                                <a href="#">Партнерство<br/>и выставочная деятельность</a>
+                                <a href="/about/partnership">Партнерство<br/>и выставочная деятельность</a>
                             </li>
                         </ul>
                     </div>
@@ -60,11 +57,11 @@
                     <div class="nav__submenu">
                         <ul>
                             <li class="nav__subitem">
-                                <a href="#">История создания экспозиции</a>
+                                <a href="/about/expo-history">История создания экспозиции</a>
                             </li>
-                            <li class="nav__subitem"><a href="#">Экспонаты</a></li>
+                            <li class="nav__subitem"><a href="/exponats">Экспонаты</a></li>
                             <li class="nav__subitem">
-                                <a href="#">Запись на экскурсию</a>
+                                <a href="/excursion">Запись на экскурсию</a>
                             </li>
                         </ul>
                     </div>
@@ -78,8 +75,10 @@
             </ul>
         </nav>
         <div class="logo">
-            <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo.86ce68ea.svg" alt=""/>
-            <img src="<?= SITE_TEMPLATE_PATH ?>/img/mobile.6bd31426.svg" alt="" class="mobile"/>
+            <a href="/">
+                <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo.86ce68ea.svg" alt=""/>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/img/mobile.6bd31426.svg" alt="" class="mobile"/>
+            </a>
         </div>
         <nav class="nav">
             <ul>
@@ -91,12 +90,12 @@
                     <div class="nav__submenu">
                         <ul>
                             <li class="nav__subitem">
-                                <a href="#">История создания флота Ассоциации</a>
+                                <a href="/fleet-history">История создания флота Ассоциации</a>
                             </li>
                             <li class="nav__subitem">
-                                <a href="##">Шлюпочные походы</a>
+                                <a href="/about/sloep/">Шлюпочные походы</a>
                             </li>
-                            <li class="nav__subitem"><a href="#">Шлюпочные походы</a></li>
+                            <li class="nav__subitem"><a href="/about/regatta">Парусные регаты</a></li>
                         </ul>
                     </div>
                 </li>
@@ -107,8 +106,8 @@
                     </div>
                     <div class="nav__submenu">
                         <ul>
-                            <li class="nav__subitem"><a href="#">Наши подопечные</a></li>
-                            <li class="nav__subitem"><a href="#">Морская практика</a></li>
+                            <li class="nav__subitem"><a href="/pupils">Наши подопечные</a></li>
+                            <li class="nav__subitem"><a href="/sea-practice">Морская практика</a></li>
                             <li class="nav__subitem">
                                 <a href="#">Военно-морские учебные заведения</a>
                             </li>
@@ -189,7 +188,7 @@
                         </li>
                         <li class="nav__subitem"><a href="#">Экспонаты</a></li>
                         <li class="nav__subitem">
-                            <a href="#">Запись на экскурсию</a>
+                            <a href="/excursion">Запись на экскурсию</a>
                         </li>
                     </ul>
                 </div>
@@ -211,7 +210,7 @@
                             <a href="#">История создания флота Ассоциации</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="##">Шлюпочные походы</a>
+                            <a href="/about/sloep/">Шлюпочные походы</a>
                         </li>
                         <li class="nav__subitem"><a href="#">Шлюпочные походы</a></li>
                     </ul>
@@ -225,7 +224,7 @@
                 <div class="nav__submenu">
                     <ul>
                         <li class="nav__subitem"><a href="#">Наши подопечные</a></li>
-                        <li class="nav__subitem"><a href="#">Морская практика</a></li>
+                        <li class="nav__subitem"><a href="/sea-practice">Морская практика</a></li>
                         <li class="nav__subitem">
                             <a href="#">Военно-морские учебные заведения</a>
                         </li>

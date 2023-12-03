@@ -1,9 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle(" Развитие музейной экспозиции, посвященной истории подводных сил ВМФ");
+$APPLICATION->SetTitle("История создания флота");
 ?>
-
-
     <section class="article">
         <div class="container">
             <div class="bread">
@@ -15,8 +13,7 @@ $APPLICATION->SetTitle(" Развитие музейной экспозиции,
 
         <div class="container container--article">
             <h1 class="h1">
-                История создания музейной экспозиции, посвященной истории подводных
-                сил ВМФ
+                История создания флота
             </h1>
             <p class="subtitle">
                 Экспозиция истории подводных сил ВМФ была заложена на Истринском

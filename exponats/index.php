@@ -1,6 +1,6 @@
-<?php
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetTitle("Об ассоциации");
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Экспонаты");
 ?>
 
 
@@ -8,12 +8,13 @@ $APPLICATION->SetTitle("Об ассоциации");
         <div class="container">
             <div class="bread">
                 <a href="/">Главная</a>
+                <a href="#">Экспозиция</a>
                 <a href="#" class="active">об ассоциации</a>
             </div>
         </div>
 
         <div class="container container--article">
-            <h1 class="h1">Об Ассоциации</h1>
+            <h1 class="h1">Экспонаты</h1>
 
             <p>
                 Ассоциация «Клуб Русская морская традиция» объединяет всех не
@@ -109,4 +110,4 @@ $APPLICATION->SetTitle("Об ассоциации");
     </section>
 
 
-<?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

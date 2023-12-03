@@ -1,6 +1,0 @@
-<?
-$sSectionName = "Экспозиция";
-$arDirProperties = Array(
-
-);
-?>
