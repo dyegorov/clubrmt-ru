@@ -109,7 +109,7 @@
                             <li class="nav__subitem"><a href="/pupils">Наши подопечные</a></li>
                             <li class="nav__subitem"><a href="/sea-practice">Морская практика</a></li>
                             <li class="nav__subitem">
-                                <a href="#">Военно-морские учебные заведения</a>
+                                <a href="/vuz-list">Военно-морские учебные заведения</a>
                             </li>
                         </ul>
                     </div>
@@ -122,19 +122,19 @@
                     <div class="nav__submenu">
                         <ul>
                             <li class="nav__subitem">
-                                <a href="#">Энциклопедия по истории военно-морской формы</a>
+                                <a href="/encyclopedia">Энциклопедия по истории военно-морской формы</a>
                             </li>
                             <li class="nav__subitem">
-                                <a href="#">Книги издательства Ассоциации</a>
+                                <a href="/books">Книги издательства Ассоциации</a>
                             </li>
                             <li class="nav__subitem">
                                 <a href="#">Видео по истории флота</a>
                             </li>
                             <li class="nav__subitem">
-                                <a href="#">Писатели маринисты</a>
+                                <a href="/writers">Писатели маринисты</a>
                             </li>
                             <li class="nav__subitem">
-                                <a href="#">Художники маринисты</a>
+                                <a href="/artists">Художники маринисты</a>
                             </li>
                             <li class="nav__subitem"><a href="#">Фильмы о море</a></li>
                             <li class="nav__subitem">
@@ -226,7 +226,7 @@
                         <li class="nav__subitem"><a href="#">Наши подопечные</a></li>
                         <li class="nav__subitem"><a href="/sea-practice">Морская практика</a></li>
                         <li class="nav__subitem">
-                            <a href="#">Военно-морские учебные заведения</a>
+                            <a href="/vuz-list">Военно-морские учебные заведения</a>
                         </li>
                     </ul>
                 </div>
@@ -239,19 +239,19 @@
                 <div class="nav__submenu">
                     <ul>
                         <li class="nav__subitem">
-                            <a href="#">Энциклопедия по истории военно-морской формы</a>
+                            <a href="/encyclopedia">Энциклопедия по истории военно-морской формы</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="#">Книги издательства Ассоциации</a>
+                            <a href="/books">Книги издательства Ассоциации</a>
                         </li>
                         <li class="nav__subitem">
                             <a href="#">Видео по истории флота</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="#">Писатели маринисты</a>
+                            <a href="/writers">Писатели маринисты</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="#">Художники маринисты</a>
+                            <a href="/artists">Художники маринисты</a>
                         </li>
                         <li class="nav__subitem"><a href="#">Фильмы о море</a></li>
                         <li class="nav__subitem">

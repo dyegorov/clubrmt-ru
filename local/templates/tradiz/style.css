@@ -76,11 +76,11 @@ body {
 
 }
 
-.container--article > table, .container--article td {
+.container--article > table, .container--article td, .container__vuz--detail > table, .container__vuz--detail td {
     border: none;
 }
 
-.container--article td {
+.container--article td, .container__vuz--detail td {
     border: none;
     padding-bottom: 40px;
     width: 50%;
@@ -88,7 +88,12 @@ body {
     border-bottom: 1px solid #D9D9E6;
 }
 
-.container--article > table {
+.container__vuz--detail td {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.container--article > table, .container__vuz--detail > table {
     border-spacing: 20px;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
@@ -97,7 +102,16 @@ body {
     line-height: normal;
 }
 
+.container__vuz--detail > table {
+    border-spacing: 0px;
+}
+
 .container--article td:first-child {
+    color: #161388;
+    font-weight: 700;
+}
+
+.container__vuz--detail tr:first-child td {
     color: #161388;
     font-weight: 700;
 }
@@ -1494,6 +1508,14 @@ p {
     line-height: normal;
 }
 
+.no-top-padding {
+    padding-top: 0px;
+}
+
+.article.article__vuz--detail {
+    padding: unset;
+}
+
 .article h1 {
     color: #161388;
     font-family: "PT Serif", sans-serif;
@@ -1892,7 +1914,7 @@ p {
     display: flex;
     gap: 20px;
     align-items: flex-start;
-    color: var(--Gray-1, #333);
+    color: #333;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -1913,7 +1935,7 @@ p {
 
 .newspage__title {
     color: #161388;
-    font-family: "PT Serif";
+    font-family: "PT Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -1928,6 +1950,28 @@ p {
     letter-spacing: 0.32px;
     text-transform: uppercase;
     margin-top: 20px;
+}
+
+.newspage__address {
+    font-family: "PT Sans", sans-serif;
+    margin-top: 20px;
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newspage__more {
+    font-family: "PT Sans", sans-serif;
+    margin-top: 20px;
+    color: #161388;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
 }
 
 @media (max-width: 836px) {
@@ -1953,7 +1997,7 @@ p {
         margin-bottom: 10px;
     }
 
-    .newspage__date {
+    .newspage__date, .newspage__address {
         margin-top: 10px;
     }
 }
