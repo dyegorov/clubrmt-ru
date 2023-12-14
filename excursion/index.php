@@ -4,7 +4,9 @@ $APPLICATION->SetTitle("Запись на экскурсию");
 ?><section class="article">
 <div class="container">
 	<div class="bread">
- <a href="#">Главная</a> <a href="#" class="active">Запись на экскурсию</a>
+ <a href="#">Главная</a>   
+<a href="#">Экспозиция по истории ВМФ</a>
+<a href="#" class="active">Запись на экскурсию</a>
 	</div>
 </div>
 <div class="container container--article">

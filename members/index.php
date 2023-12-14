@@ -6,7 +6,7 @@ $APPLICATION->SetTitle("Почетные члены");
         <div class="container">
             <div class="bread">
                 <a href="#">Главная</a>
-                <a href="#">ЭКспозиция</a>
+                <a href="#">Об Ассоциации</a>
                 <a href="#" class="active">Почетные члены</a>
             </div>
         </div>

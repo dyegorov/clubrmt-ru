@@ -6,7 +6,7 @@ $APPLICATION->SetTitle("Структура управления");
         <div class="container">
             <div class="bread">
                 <a href="#">Главная</a>
-                <a href="#">ЭКспозиция</a>
+                <a href="#">Об ассоциации</a>
                 <a href="#" class="active">структура управления</a>
             </div>
         </div>

@@ -40,11 +40,7 @@ $APPLICATION->SetTitle("Об ассоциации");
 		</div>
 		<div class="projects__info">
 			 Военно-патриотическое воспитание молодежи
-		</div>
-		</a><a href="/about/heritage" class="projects__unit">
-		<div class="projects__info">
-			<br>
-		</div>
+		</div>		
  </a> <a href="/about/regatta" class="projects__unit">
 		<div class="projects__img">
  <img alt="about#22.jpg" src="/upload/medialibrary/894/o3n9dtyc46l8bx1tg7ruh5mq0lpo5bna.jpg" title="about#22.jpg">

@@ -67,7 +67,7 @@
                     </div>
                 </li>
                 <li class="nav__item museum">
-                    <a href="#" class="nav__trigger">
+                    <a href="https://clubrmt.tilda.ws/" class="nav__trigger">
                         Виртуальный музей
                         <img src="<?= SITE_TEMPLATE_PATH ?>/img/star.18f82ea7.svg" alt=""/>
                     </a>

@@ -34,5 +34,17 @@
         src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
 ></script>
 <script src="<?= SITE_TEMPLATE_PATH ?>/js/sea_museum.e31bb0bc.js"></script>
+<script src="https://museum.parsuna.ru/libs/vmuseum.js?v=5"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var vm = new VMuseum({
+            container: 'vm-excursions',
+            museumId: 1240,
+            isFlexList: false,
+            previewOptions: 'w=450,h=670,zc=1'
+
+        });
+    });
+</script>
 </body>
 </html>
