@@ -135,7 +135,8 @@ p {
     left: 0;
     top: 0;
     right: 0;
-    background: #fff;
+    /*background: #fff;*/
+    background: #161388;
     box-shadow: 0px 0px 20px 0px rgba(22, 19, 136, 0.15);
     z-index: 99;
 }
@@ -158,12 +159,17 @@ p {
     position: relative;
 }
 
-.nav__item.active:not(.museum) .nav__trigger img {
-    transform: scale(-1);
-}
+/*.nav__item.active:not(.museum) .nav__trigger img {*/
+/*    transform: scale(-1);*/
+/*}*/
 
 .nav__item.active:not(.museum) .nav__submenu {
     display: block;
+}
+
+
+.nav__submenu.active, .nav__item.active {
+    z-index: 5;
 }
 
 .nav__submenu {
@@ -197,7 +203,8 @@ p {
     display: flex;
     align-items: center;
     gap: 6px;
-    color: #161388;
+    /*color: #161388;*/
+    color: #fff;
     font-size: 14px;
     cursor: pointer;
     border-radius: 5px;
@@ -210,7 +217,7 @@ p {
 }
 
 .nav__trigger:hover {
-    background: #f5f5fb;
+    /*background: #f5f5fb;*/
 }
 
 .logo {
@@ -365,6 +372,10 @@ p {
     font-weight: 700;
     line-height: 40px;
     margin-bottom: 20px;
+    white-space: nowrap;
+    @media (max-width: 768px) {
+        white-space: unset;
+    }
 }
 
 .btn {
@@ -583,7 +594,8 @@ p {
         width: 85%;
         height: 3px;
         margin: 0 auto;
-        background-color: #133469;
+        /*background-color: #133469;*/
+        background-color: #fff;
         -webkit-transition: 350ms;
         transition: 350ms;
     }
@@ -2151,6 +2163,27 @@ div.vmuseum-list__item {
     }
 }
 
+div.vmuseum-list__item-title {
+    color: #FFF;
+    text-align: center;
+
+    /* srf22bld */
+    font-family: PT Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 136.364% */
+    @media (max-width: 768px) {
+        color: #FFF;
+
+        /* srf16bld */
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+
 img.vmuseum-list__item-img {
     border-radius: 20px !important;
     width: 100%;
@@ -2202,16 +2235,31 @@ div.vmuseum-list__item:hover .div.vmuseum-list__item-right img {
     font-weight: 700;
     line-height: 30px;
     color: #fff;
+    border-bottom: none !important;
 }
 
 .vmuseum-list__item-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    height: 42px;
+    padding: 10px 40px;
+    cursor: pointer;
+    outline: 0;
+    transition: 300ms ease-out;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
 }
 
 .vmuseum-list__item-btn:after {
     display: none !important;
+}
+
+.hidden {
+    display: none;
 }
 
 /*# sourceMappingURL=/style.97fcb138.css.map */

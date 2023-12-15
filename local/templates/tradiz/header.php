@@ -32,7 +32,7 @@
                 <li class="nav__item">
                     <div class="nav__trigger">
                         Об Ассоциации
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                     </div>
                     <div class="nav__submenu">
                         <ul>
@@ -52,7 +52,7 @@
                 <li class="nav__item">
                     <div class="nav__trigger">
                         Экспозиция по истории ВМФ
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                     </div>
                     <div class="nav__submenu">
                         <ul>
@@ -67,16 +67,16 @@
                     </div>
                 </li>
                 <li class="nav__item museum">
-                    <a href="https://clubrmt.tilda.ws/" class="nav__trigger">
+                    <a href="/virtual-museum" class="nav__trigger">
                         Виртуальный музей
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/star.18f82ea7.svg" alt=""/>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/star-white.svg" alt=""/>
                     </a>
                 </li>
             </ul>
         </nav>
         <div class="logo">
             <a href="/">
-                <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo.86ce68ea.svg" alt=""/>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-desktop.png" alt=""/>
                 <img src="<?= SITE_TEMPLATE_PATH ?>/img/mobile.6bd31426.svg" alt="" class="mobile"/>
             </a>
         </div>
@@ -85,7 +85,7 @@
                 <li class="nav__item">
                     <div class="nav__trigger">
                         Флот Ассоциации
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                     </div>
                     <div class="nav__submenu">
                         <ul>
@@ -102,12 +102,13 @@
                 <li class="nav__item">
                     <div class="nav__trigger">
                         Работа с молодежью
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                     </div>
                     <div class="nav__submenu">
                         <ul>
                             <li class="nav__subitem"><a href="/pupils">Наши подопечные</a></li>
                             <li class="nav__subitem"><a href="/sea-practice">Морская практика</a></li>
+                            <li class="nav__subitem"><a href="/nahim">Нахимовские училища</a></li>
                             <li class="nav__subitem">
                                 <a href="/vuz-list">Военно-морские учебные заведения</a>
                             </li>
@@ -117,7 +118,7 @@
                 <li class="nav__item">
                     <div class="nav__trigger">
                         Просветительские проекты
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                     </div>
                     <div class="nav__submenu">
                         <ul>
@@ -138,7 +139,7 @@
                             </li>
                             <li class="nav__subitem"><a href="#">Фильмы о море</a></li>
                             <li class="nav__subitem">
-                                <a href="#">Военные автомобили</a>
+                                <a href="/auto">Военные автомобили</a>
                             </li>
                         </ul>
                     </div>
@@ -157,21 +158,21 @@
             <li class="nav__item">
                 <div class="nav__trigger">
                     Об Ассоциации
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                 </div>
-                <div class="nav__submenu">
+                <div class="nav__submenu active">
                     <ul>
-                        <li class="nav__subitem"><a href="#">Новости</a></li>
-                        <li class="nav__subitem"><a href="#">Об Ассоциации</a></li>
+                        <li class="nav__subitem"><a href="/news">Новости</a></li>
+                        <li class="nav__subitem"><a href="/about">Об Ассоциации</a></li>
+                        <li class="nav__subitem"><a href="/photo">Фотогалерея</a></li>
                         <li class="nav__subitem">
-                            <a href="#">Структура управления</a>
+                            <a href="/structure">Структура управления</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="#">Уставные документы</a>
+                            <a href="/members">Почётные члены</a>
                         </li>
-                        <li class="nav__subitem"><a href="#">Почетные члены</a></li>
                         <li class="nav__subitem">
-                            <a href="#">Партнерство<br/>и выставочная деятельность</a>
+                            <a href="/about/partnership">Партнерство<br/>и выставочная деятельность</a>
                         </li>
                     </ul>
                 </div>
@@ -179,14 +180,14 @@
             <li class="nav__item">
                 <div class="nav__trigger">
                     Экспозиция по истории ВМФ
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
                         <li class="nav__subitem">
-                            <a href="#">История создания экспозиции</a>
+                            <a href="/about/expo-history">История создания экспозиции</a>
                         </li>
-                        <li class="nav__subitem"><a href="#">Экспонаты</a></li>
+                        <li class="nav__subitem"><a href="/exponats">Экспонаты</a></li>
                         <li class="nav__subitem">
                             <a href="/excursion">Запись на экскурсию</a>
                         </li>
@@ -194,15 +195,15 @@
                 </div>
             </li>
             <li class="nav__item museum">
-                <a href="#" class="nav__trigger">
+                <a href="/virtual-museum" class="nav__trigger">
                     Виртуальный музей
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/star.18f82ea7.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/star-white.svg" alt=""/>
                 </a>
             </li>
             <li class="nav__item">
                 <div class="nav__trigger">
                     Флот Ассоциации
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
@@ -219,12 +220,13 @@
             <li class="nav__item">
                 <div class="nav__trigger">
                     Работа с молодежью
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
-                        <li class="nav__subitem"><a href="#">Наши подопечные</a></li>
+                        <li class="nav__subitem"><a href="/pupils">Наши подопечные</a></li>
                         <li class="nav__subitem"><a href="/sea-practice">Морская практика</a></li>
+                        <li class="nav__subitem"><a href="/nahim">Нахимовские училища</a></li>
                         <li class="nav__subitem">
                             <a href="/vuz-list">Военно-морские учебные заведения</a>
                         </li>
@@ -234,7 +236,7 @@
             <li class="nav__item">
                 <div class="nav__trigger">
                     Просветительские проекты
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.5776fd5c.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
@@ -255,7 +257,7 @@
                         </li>
                         <li class="nav__subitem"><a href="#">Фильмы о море</a></li>
                         <li class="nav__subitem">
-                            <a href="#">Военные автомобили</a>
+                            <a href="/auto">Военные автомобили</a>
                         </li>
                     </ul>
                 </div>
