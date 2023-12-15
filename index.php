@@ -1,5 +1,6 @@
 <?
 require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
+$APPLICATION->SetPageProperty("title", "Ассоциация «Клуб Русская Морская Традиция»");
 $APPLICATION->SetTitle("Главная");
 ?>
 
@@ -59,7 +60,7 @@ $APPLICATION->SetTitle("Главная");
                             </p>
                         </div>
 
-                        <a href="/about/fostering" class="btn">подробнее</a>
+                        <a href="/sea-practice" class="btn">подробнее</a>
                     </div>
                 </div>
             </div>
@@ -116,7 +117,7 @@ $APPLICATION->SetTitle("Главная");
                             </p>
                         </div>
 
-                        <a href="/about/reconstruction" class="btn">подробнее</a>
+                        <a href="/fleet-history" class="btn">подробнее</a>
                     </div>
                 </div>
             </div>
@@ -154,7 +155,7 @@ $APPLICATION->SetTitle("Главная");
                             </p>
                         </div>
 
-                        <a href="/about/publishing" class="btn">подробнее</a>
+                        <a href="/encyclopedia" class="btn">подробнее</a>
                     </div>
                 </div>
             </div>
@@ -217,28 +218,31 @@ $APPLICATION->SetTitle("Главная");
         <div class="container">
             <div class="headrow">
                 <h2 class="h2">экскурсии</h2>
-                <a href="/excursion" class="btn btn--accent">все экскурсии</a>
+                <!--                <a href="/excursion" class="btn btn--accent">все экскурсии</a>-->
             </div>
 
-            <div class="slide__item">
-                <img src="<?= SITE_TEMPLATE_PATH ?>/img/boat2.b6ae07b1.jpg" alt="" class="bg"/>
-                <div class="slide__info">
-                    <div class="slide__title">
-                        Подводные судна со времен Петра I до наших дней
+            <a href="/excursion">
+
+                <div class="slide__item">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/boat2.b6ae07b1.jpg" alt="" class="bg"/>
+                    <div class="slide__info">
+                        <div class="slide__title">
+                            Подводные судна со времен Петра I до наших дней
+                        </div>
+                        <p>Подводные судна со времен Петра I до наших дней</p>
                     </div>
-                    <p>Подводные судна со времен Петра I до наших дней</p>
                 </div>
-            </div>
+            </a>
 
-            <a href="/excursion" class="btn btn--accent btn--mobile">все экскурсии</a>
+            <!--            <a href="/excursion" class="btn btn--accent btn--mobile">все экскурсии</a>-->
 
             <div class="headrow excursions__bottomrow">
-                <h3 class="h2">
-                    все экскурсии проводятся
-                    <span class="underlined">бесплатно</span> посетить экспозицию по
-                    истории ВМФ можно, только записавшийсь на экскурсию
+                <h3 class="h2 no-text-transform excursion disclaimer ">
+                    Все экскурсии проводятся
+                    бесплатно. Посетить экспозицию по
+                    истории ВМФ можно, только записавшись на экскурсию.
                 </h3>
-                <a href="#" class="btn btn--accent">как посетить</a>
+                <a href="/excursion" class="btn btn--accent">как посетить</a>
             </div>
         </div>
     </section>
@@ -278,27 +282,15 @@ $APPLICATION->SetTitle("Главная");
     <section class="virtual">
         <div class="container">
             <h2 class="h2">виртуальный музей ассоциации</h2>
-            <div id="vm-excursions" class="map"/>
+            <div id="vm-excursions" class="map margin-top-40"/>
 
-            <div class="headrow excursions__bottomrow">
-                <h3 class="h2">
-                    В разделе <span class="underlined">Виртуальный музей</span> вы
-                    можете познакомиться со всеми виртуальными экспозиции истории ВМФ
-                </h3>
-                <a href="/virtual-museum" class="btn">все виртуальные экскурсии</a>
-            </div>
-            <div class="capture">
-                Чтобы перемещаться 3D туру, нажимайте на специальные метки со
-                стрелками. Фото экспонатов можно рассмотреть вблизи, нажав на метку
-                «фотокамера», рядом.
-            </div>
         </div>
-        <div class="container">
+        <div class="container no-padding">
 
             <div class="headrow excursions__bottomrow">
-                <h3 class="h2">
-                    В разделе <span class="underlined">Виртуальный музей</span> вы
-                    можете познакомиться со всеми виртуальными экспозиции истории ВМФ
+                <h3 class="h2 opaque no-text-transform">
+                    В разделе "Виртуальный музей" вы
+                    можете познакомиться со всеми виртуальными экскурсиями экспозиции истории ВМФ
                 </h3>
                 <a href="/virtual-museum" class="btn">все виртуальные экскурсии</a>
             </div>
@@ -308,10 +300,9 @@ $APPLICATION->SetTitle("Главная");
                         src="https://pano.parsuna.ru/embed/marine?startscene=scene_76&startactions=lookat(259.14,-8.69,121.29,0,0);"
                         frameborder="0" scrolling="no" allowfullscreen></iframe>
             </div>
-            <div class="capture">
-                Чтобы перемещаться 3D туру, нажимайте на специальные метки со
-                стрелками. Фото экспонатов можно рассмотреть вблизи, нажав на метку
-                «фотокамера», рядом.
+            <div class="capture opaque">
+                Чтобы перемещаться 3D туру, нажимайте на специальные метки со стрелками. Информацию об экспонате можно
+                прочесть, нажав на метку с его названием.
             </div>
         </div>
     </section>
@@ -320,29 +311,20 @@ $APPLICATION->SetTitle("Главная");
         <div class="container">
             <h2 class="h2">проекты ассоциации</h2>
             <div class="projects__grid">
-                <a href="/about/expo-history" class="projects__unit">
+                <a href="/about/expo-history" class="projects__unit top_project">
                     <div class="projects__img">
-                        <img src="/upload/medialibrary/a8c/e3aork4tlfxpkgkpti94hflvl2bxdd6b.jpeg" alt=""/>
+                        <img src="/upload/pirania.jpg" alt=""/>
                     </div>
                     <div class="projects__info">
-                        Развитие музейной экспозиции, посвященной истории подводных сил
-                        ВМФ
+                        Музейная экспозиция, посвященная истории подводных сил ВМФ
                     </div>
                 </a>
-                <a href="/about/fostering" class="projects__unit">
+                <a href="/sea-practice" class="projects__unit">
                     <div class="projects__img">
                         <img src="/upload/medialibrary/068/6iz9cuxpt69np9l1ntw0qvl5v4zraqlh.jpg" alt=""/>
                     </div>
                     <div class="projects__info">
                         Военно-патриотическое воспитание молодежи
-                    </div>
-                </a>
-                <a href="/about/heritage" class="projects__unit">
-                    <div class="projects__img">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/p3.a8dbda5a.jpg" alt=""/>
-                    </div>
-                    <div class="projects__info">
-                        Сохранение исторического наследия флота
                     </div>
                 </a>
                 <a href="/about/regatta" class="projects__unit">
@@ -357,7 +339,7 @@ $APPLICATION->SetTitle("Главная");
                     </div>
                     <div class="projects__info">Шлюпочные походы</div>
                 </a>
-                <a href="/about/reconstruction" class="projects__unit">
+                <a href="/fleet-history" class="projects__unit">
                     <div class="projects__img">
                         <img src="/upload/medialibrary/9df/jovyygoyzahiqc1ikmr56vxd7s2avzrf.jpg" alt=""/>
                     </div>
@@ -373,7 +355,7 @@ $APPLICATION->SetTitle("Главная");
                         Партнёрство и выставочная деятельность
                     </div>
                 </a>
-                <a href="/about/publishing" class="projects__unit">
+                <a href="/encyclopedia" class="projects__unit">
                     <div class="projects__img">
                         <img src="/upload/medialibrary/361/j15i6at5w8glq7eqr9sxnqw1blnso3d6.jpg" alt=""/>
                     </div>
@@ -468,6 +450,14 @@ $APPLICATION->SetTitle("Главная");
                     </div>
                     <div class="partners__title">
                         Центральный военно-морской музей имени императора Петра Великого
+                    </div>
+                </a>
+                <a href="#" class="partners__item">
+                    <div class="partners__logo">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/mistral.png" alt=""/>
+                    </div>
+                    <div class="partners__title">
+                        Отель M’Istra’L Hotel & SPA
                     </div>
                 </a>
             </div>

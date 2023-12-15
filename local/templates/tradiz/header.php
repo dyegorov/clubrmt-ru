@@ -76,8 +76,8 @@
         </nav>
         <div class="logo">
             <a href="/">
-                <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-desktop.png" alt=""/>
-                <img src="<?= SITE_TEMPLATE_PATH ?>/img/mobile.6bd31426.svg" alt="" class="mobile"/>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-desktop.svg" alt=""/>
+                <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-mobile.svg" alt="" class="mobile"/>
             </a>
         </div>
         <nav class="nav">
@@ -129,7 +129,7 @@
                                 <a href="/books">Книги издательства Ассоциации</a>
                             </li>
                             <li class="nav__subitem">
-                                <a href="#">Видео по истории флота</a>
+                                <a href="/history-movies">Видео по истории флота</a>
                             </li>
                             <li class="nav__subitem">
                                 <a href="/writers">Писатели маринисты</a>
@@ -137,7 +137,7 @@
                             <li class="nav__subitem">
                                 <a href="/artists">Художники маринисты</a>
                             </li>
-                            <li class="nav__subitem"><a href="#">Фильмы о море</a></li>
+                            <li class="nav__subitem"><a href="/sea-movies">Фильмы о море</a></li>
                             <li class="nav__subitem">
                                 <a href="/auto">Военные автомобили</a>
                             </li>
@@ -208,7 +208,7 @@
                 <div class="nav__submenu">
                     <ul>
                         <li class="nav__subitem">
-                            <a href="#">История создания флота Ассоциации</a>
+                            <a href="/about/expo-history">История создания флота Ассоциации</a>
                         </li>
                         <li class="nav__subitem">
                             <a href="/about/sloep/">Шлюпочные походы</a>
@@ -247,7 +247,7 @@
                             <a href="/books">Книги издательства Ассоциации</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="#">Видео по истории флота</a>
+                            <a href="/history-movies">Видео по истории флота</a>
                         </li>
                         <li class="nav__subitem">
                             <a href="/writers">Писатели маринисты</a>
@@ -255,7 +255,7 @@
                         <li class="nav__subitem">
                             <a href="/artists">Художники маринисты</a>
                         </li>
-                        <li class="nav__subitem"><a href="#">Фильмы о море</a></li>
+                        <li class="nav__subitem"><a href="/sea-movies">Фильмы о море</a></li>
                         <li class="nav__subitem">
                             <a href="/auto">Военные автомобили</a>
                         </li>

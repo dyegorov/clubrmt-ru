@@ -6,7 +6,14 @@
             <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-w2.beb564be.svg" alt="" class="v2"/>
         </div>
         <div class="footer__nav">
-            <a href="#" class="footer__title">Пользовательское соглашение</a>
+            <div class="footer__socials">
+                <a href="https://vk.com/clubrmtru" target="_blank" rel="noreferrer noopener">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/vk.svg" alt="" class=""/>
+                </a>
+                <a href="https://t.me/clubrmt" target="_blank" rel="noreferrer noopener">
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/tg.svg" alt="" class=""/>
+                </a>
+            </div>
             <div class="footer__contacts">
                 <div class="footer__title">Контакты</div>
                 <div>
