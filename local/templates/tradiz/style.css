@@ -2373,4 +2373,8 @@ h3.accent {
     text-transform: none;
 }
 
+.study .virtual__slider .slick-arrow {
+    top: -15px;
+}
+
 /*# sourceMappingURL=/style.97fcb138.css.map */
