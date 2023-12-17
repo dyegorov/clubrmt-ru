@@ -1,91 +1,100 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Экспонаты");
-?><section class="article structure">
-<div class="container">
-	<div class="bread">
- <a href="/">Главная</a> <a href="#">Экспозиция по истории ВМФ</a> <a href="#" class="active">Экспонаты</a>
-	</div>
-</div>
-<div class="container container--article">
-	<h1 class="h1">Экспонаты</h1>
-	<p>
-		 В составе экспозиции Ассоциации, посвященной истории подводных сил, находятся экспонаты, которые обрели вторую жизнь благодаря энтузиазму членов Ассоциации или были воссозданы в результате сотрудничества с партнером – Центральным Военно-Морским музеем имени императора Петра Великого. Что-то было передано в дар Ассоциации. Каждый экспонат является не только частью истории флота, это еще и история развития кораблестроения, и история мужества русских военных моряков. Это история славной русской морской традиции, которая передается от поколения поколению.
-	</p>
-</div>
-<div class="container">
-	<div class="projects__grid">
- <a href="/about/expo-history" class="projects__unit">
-		<div class="projects__img">
- <img alt="about#4.jpeg" src="/upload/medialibrary/fdf/un6vi1e5i0p7boe63dw60sn5mjkcy0ma.jpeg" title="about#4.jpeg">
-		</div>
-		<div class="projects__info">
-			 Рубка подводной лодки «Горьковский комсомолец» Б-380, проекта 641Б
-		</div>
- </a> <a href="/about/fostering" class="projects__unit">
-		<div class="projects__img">
- <img alt="pirania865_1.jpg" src="/upload/medialibrary/df5/oel1pztkugepen2ekgh4z8s1rpkwcy20.jpg" title="pirania865_1.jpg">
-		</div>
-		<div class="projects__info">
-			 Диверсионная подводная лодка проекта 865 «Пиранья»
-		</div>
- </a> <a href="/about/heritage" class="projects__unit">
-		<div class="projects__img">
- <img alt="potaennoe_sudno_nikonova_4.jpg" src="/upload/medialibrary/898/595750gqdzv1bpy1jz2iyx8mw4b3esoa.jpg" title="potaennoe_sudno_nikonova_4.jpg">
-		</div>
-		<div class="projects__info">
-			 «Потаенное судно» Ефима Никонова
-		</div>
- </a> <a href="/about/regatta" class="projects__unit">
-		<div class="projects__img">
- <img alt="lodka_dzhevezky_7.jpg" src="/upload/medialibrary/399/mzokm7tqbwnuz012akdu1f5yzik83vxa.jpg" title="lodka_dzhevezky_7.jpg">
-		</div>
-		<div class="projects__info">
-			 Подводная лодка Джевецкого
-		</div>
- </a> <a href="/about/sloep" class="projects__unit">
-		<div class="projects__img">
- <img alt="miny_5.jpg" src="/upload/medialibrary/c10/eju7rlamkeckiwm5h2p6d1pmyl05vbna.jpg" title="miny_5.jpg">
-		</div>
-		<div class="projects__info">
-			 Морские якорные мины
-		</div>
- </a> <a href="/about/reconstruction" class="projects__unit">
-		<div class="projects__img">
- <img alt="pereborochaya_dver_1.jpg" src="/upload/medialibrary/3ef/00bag25hq97g7hbuvrzsz5eumrdxm010.jpg" title="pereborochaya_dver_1.jpg">
-		</div>
-		<div class="projects__info">
-			 Переборочная дверь подводной лодки Б-380
-		</div>
- </a> <a href="/about/partnership" class="projects__unit">
-		<div class="projects__img">
- <img alt="podlodka_triton1m907_3.jpg" src="/upload/medialibrary/8c2/ltti0t5oj6bfr168zoob4i3hxakoitdv.jpg" title="podlodka_triton1m907_3.jpg">
-		</div>
-		<div class="projects__info">
-			 Сверхмалая подводная лодка «Тритон-1М» проекта 907
-		</div>
- </a> <a href="/about/publishing" class="projects__unit">
-		<div class="projects__img">
- <img alt="kater_bychok_1.jpg" src="/upload/medialibrary/179/2u53o3w2uq1sy03vgyrj9zo21aaftrn9.jpg" title="kater_bychok_1.jpg">
-		</div>
-		<div class="projects__info">
-			 Рейдовый катер шифр «Бычок»
-		</div>
- </a> <a href="/about/partnership" class="projects__unit">
-		<div class="projects__img">
- <img alt="brdm2_3.jpg" src="/upload/medialibrary/f57/9wehua3kw5b0u2q7iixuohvwc756crsx.jpg" title="brdm2_3.jpg">
-		</div>
-		<div class="projects__info">
-			 Боевая разведывательно-дозорная машина БРДМ-2
-		</div>
- </a> <a href="/about/publishing" class="projects__unit">
-		<div class="projects__img">
- <img alt="karabelnaya_pushka_6funt_4.jpg" src="/upload/medialibrary/b45/dtt0x1o4optq90k7kdvdh283zvb4duoc.jpg" title="karabelnaya_pushka_6funt_4.jpg">
-		</div>
-		<div class="projects__info">
-			 6-ти фунтовое корабельное орудие XVIII века
-		</div>
- </a>
-	</div>
-</div>
- </section><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+?>
+<section class="article structure">
+    <div class="container">
+        <div class="bread">
+            <a href="/">Главная</a> <a href="#">Экспозиция по истории ВМФ</a> <a href="#" class="active">Экспонаты</a>
+        </div>
+
+
+        <? $APPLICATION->IncludeComponent("bitrix:news", "exponats", array(
+            "ADD_ELEMENT_CHAIN" => "N",    // Включать название элемента в цепочку навигации
+            "ADD_SECTIONS_CHAIN" => "Y",    // Включать раздел в цепочку навигации
+            "AJAX_MODE" => "N",    // Включить режим AJAX
+            "AJAX_OPTION_ADDITIONAL" => "",    // Дополнительный идентификатор
+            "AJAX_OPTION_HISTORY" => "N",    // Включить эмуляцию навигации браузера
+            "AJAX_OPTION_JUMP" => "N",    // Включить прокрутку к началу компонента
+            "AJAX_OPTION_STYLE" => "Y",    // Включить подгрузку стилей
+            "BROWSER_TITLE" => "-",    // Установить заголовок окна браузера из свойства
+            "CACHE_FILTER" => "N",    // Кешировать при установленном фильтре
+            "CACHE_GROUPS" => "Y",    // Учитывать права доступа
+            "CACHE_TIME" => "36000000",    // Время кеширования (сек.)
+            "CACHE_TYPE" => "A",    // Тип кеширования
+            "CHECK_DATES" => "Y",    // Показывать только активные на данный момент элементы
+            "DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",    // Формат показа даты
+            "DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",    // Выводить под списком
+            "DETAIL_DISPLAY_TOP_PAGER" => "N",    // Выводить над списком
+            "DETAIL_FIELD_CODE" => array(    // Поля
+                0 => "",
+                1 => "",
+            ),
+            "DETAIL_PAGER_SHOW_ALL" => "Y",    // Показывать ссылку "Все"
+            "DETAIL_PAGER_TEMPLATE" => "",    // Название шаблона
+            "DETAIL_PAGER_TITLE" => "Страница",    // Название категорий
+            "DETAIL_PROPERTY_CODE" => array(    // Свойства
+                0 => "",
+                1 => "[YOUTUBE_PREVIEW]",
+                2 => "",
+            ),
+            "DETAIL_SET_CANONICAL_URL" => "N",    // Устанавливать канонический URL
+            "DISPLAY_BOTTOM_PAGER" => "Y",    // Выводить под списком
+            "DISPLAY_DATE" => "Y",    // Выводить дату элемента
+            "DISPLAY_NAME" => "Y",    // Выводить название элемента
+            "DISPLAY_PICTURE" => "Y",    // Выводить изображение для анонса
+            "DISPLAY_PREVIEW_TEXT" => "Y",    // Выводить текст анонса
+            "DISPLAY_TOP_PAGER" => "N",    // Выводить над списком
+            "HIDE_LINK_WHEN_NO_DETAIL" => "N",    // Скрывать ссылку, если нет детального описания
+            "IBLOCK_ID" => "8",    // Инфоблок
+            "IBLOCK_TYPE" => "info",    // Тип инфоблока
+            "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",    // Включать инфоблок в цепочку навигации
+            "LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",    // Формат показа даты
+            "LIST_FIELD_CODE" => array(    // Поля
+                0 => "",
+                1 => "",
+            ),
+            "LIST_PROPERTY_CODE" => array(    // Свойства
+                0 => "",
+                1 => "",
+            ),
+            "MESSAGE_404" => "",    // Сообщение для показа (по умолчанию из компонента)
+            "META_DESCRIPTION" => "-",    // Установить описание страницы из свойства
+            "META_KEYWORDS" => "-",    // Установить ключевые слова страницы из свойства
+            "NEWS_COUNT" => "50",    // Количество новостей на странице
+            "PAGER_BASE_LINK_ENABLE" => "N",    // Включить обработку ссылок
+            "PAGER_DESC_NUMBERING" => "N",    // Использовать обратную навигацию
+            "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",    // Время кеширования страниц для обратной навигации
+            "PAGER_SHOW_ALL" => "N",    // Показывать ссылку "Все"
+            "PAGER_SHOW_ALWAYS" => "N",    // Выводить всегда
+            "PAGER_TEMPLATE" => "pager",    // Шаблон постраничной навигации
+            "PAGER_TITLE" => "Новости",    // Название категорий
+            "PREVIEW_TRUNCATE_LEN" => "",    // Максимальная длина анонса для вывода (только для типа текст)
+            "SEF_MODE" => "N",    // Включить поддержку ЧПУ
+            "SET_LAST_MODIFIED" => "N",    // Устанавливать в заголовках ответа время модификации страницы
+            "SET_STATUS_404" => "Y",    // Устанавливать статус 404
+            "SET_TITLE" => "Y",    // Устанавливать заголовок страницы
+            "SHOW_404" => "N",    // Показ специальной страницы
+            "SORT_BY1" => "ACTIVE_FROM",    // Поле для первой сортировки новостей
+            "SORT_BY2" => "SORT",    // Поле для второй сортировки новостей
+            "SORT_ORDER1" => "DESC",    // Направление для первой сортировки новостей
+            "SORT_ORDER2" => "ASC",    // Направление для второй сортировки новостей
+            "STRICT_SECTION_CHECK" => "N",    // Строгая проверка раздела
+            "USE_CATEGORIES" => "N",    // Выводить материалы по теме
+            "USE_FILTER" => "N",    // Показывать фильтр
+            "USE_PERMISSIONS" => "N",    // Использовать дополнительное ограничение доступа
+            "USE_RATING" => "N",    // Разрешить голосование
+            "USE_REVIEW" => "N",    // Разрешить отзывы
+            "USE_RSS" => "N",    // Разрешить RSS
+            "USE_SEARCH" => "N",    // Разрешить поиск
+            "USE_SHARE" => "N",    // Отображать панель соц. закладок
+            "VARIABLE_ALIASES" => array(
+                "ELEMENT_ID" => "ELEMENT_ID",
+                "SECTION_ID" => "SECTION_ID",
+            )
+        ),
+            false
+        ); ?>
+    </div>
+</section><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+
