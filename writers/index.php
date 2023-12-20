@@ -2,12 +2,12 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Военно-морские учебные заведения");
 ?>
-    <section class="newspage">
+    <section class="article">
     <div class="container">
         <div class="bread">
             <a href="/">Главная</a> <a href="/vuz-list" class="active">Писатели-маринисты</a>
         </div>
-        <?php $APPLICATION->IncludeComponent(
+        <? $APPLICATION->IncludeComponent(
             "bitrix:news",
             "writers",
             array(
@@ -27,7 +27,7 @@ $APPLICATION->SetTitle("Военно-морские учебные заведе�
                 "DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
                 "DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
                 "DETAIL_DISPLAY_TOP_PAGER" => "N",
-                "DETAIL_FIELD_CODE" => array("", ""),
+                "DETAIL_FIELD_CODE" => array("PREVIEW_PICTURE", "DETAIL_PICTURE", ""),
                 "DETAIL_PAGER_SHOW_ALL" => "Y",
                 "DETAIL_PAGER_TEMPLATE" => "",
                 "DETAIL_PAGER_TITLE" => "Страница",
@@ -45,7 +45,7 @@ $APPLICATION->SetTitle("Военно-морские учебные заведе�
                 "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
                 "LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
                 "LIST_FIELD_CODE" => array("PREVIEW_PICTURE", ""),
-                "LIST_PROPERTY_CODE" => array("ADDRESS", ""),
+                "LIST_PROPERTY_CODE" => array("", "ADDRESS", ""),
                 "MESSAGE_404" => "",
                 "META_DESCRIPTION" => "-",
                 "META_KEYWORDS" => "-",
