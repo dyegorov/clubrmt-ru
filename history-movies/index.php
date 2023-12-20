@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("Фильмы о море");
     <section class="article">
         <div class="container">
             <div class="bread">
-                <a href="/">Главная</a> <a href="#" class="active">Видео по истории флота</a>
+                <a href="/">Главная</a> <a href="/history-movies" class="active">Видео по истории флота</a>
             </div>
             <?php $APPLICATION->IncludeComponent("bitrix:news", "history-movies", array(
                 "ADD_ELEMENT_CHAIN" => "N",    // Включать название элемента в цепочку навигации

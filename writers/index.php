@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("Военно-морские учебные заведе�
     <section class="newspage">
     <div class="container">
         <div class="bread">
-            <a href="/">Главная</a> <a href="/vuz-list" class="active">Писатели маринисты</a>
+            <a href="/">Главная</a> <a href="/vuz-list" class="active">Писатели-маринисты</a>
         </div>
         <?php $APPLICATION->IncludeComponent(
             "bitrix:news",

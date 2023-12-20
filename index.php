@@ -217,9 +217,11 @@ $APPLICATION->SetTitle("Главная");
             ),
                 false
             ); ?>
+            <div class="headrow excursions__bottomrow">
+                <a href="/news" class="btn btn--accent mobile-only">все новости</a>
+            </div>
         </div>
     </section>
-
 
     <section class="excursions">
         <div class="container">

@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Военно-морские учебные заведения");
 ?>
-    <section class="newspage">
+    <section class="article structure">
     <div class="container">
         <div class="bread">
             <a href="/">Главная</a> <a href="/vuz-list" class="active">военно-морские учебные заведения</a>

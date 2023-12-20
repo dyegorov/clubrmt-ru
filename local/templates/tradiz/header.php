@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
           integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="/local/templates/tradiz/style.css"/>
+    <link rel="stylesheet" href="/local/templates/tradiz/style.eew3.css"/>
     <title><? $APPLICATION->ShowTitle() ?></title>
 </head>
 
@@ -132,10 +132,10 @@
                                 <a href="/history-movies">Видео по истории флота</a>
                             </li>
                             <li class="nav__subitem">
-                                <a href="/writers">Писатели маринисты</a>
+                                <a href="/writers">Писатели-маринисты</a>
                             </li>
                             <li class="nav__subitem">
-                                <a href="/artists">Художники маринисты</a>
+                                <a href="/artists">Художники-маринисты</a>
                             </li>
                             <li class="nav__subitem"><a href="/sea-movies">Фильмы о море</a></li>
                             <li class="nav__subitem">
@@ -157,10 +157,22 @@
         <ul>
             <li class="nav__item">
                 <div class="nav__trigger">
-                    Об Ассоциации
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
+                    <a href="https://vk.com/clubrmtru" target="_blank" rel="noreferrer noopener">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/vk-blue.svg" alt="" class=""/>
+                    </a>
+                    &nbsp;&nbsp;
+                    <a href="https://t.me/clubrmt" target="_blank" rel="noreferrer noopener">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/img/tg-blue.svg" alt="" class=""/>
+                    </a>
                 </div>
-                <div class="nav__submenu active">
+                <div class="nav__trigger">
+                    <a href="/news">Главная</a>
+                </div>
+                <div class="nav__trigger">
+                    Об Ассоциации
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.svg" alt=""/>
+                </div>
+                <div class="nav__submenu">
                     <ul>
                         <li class="nav__subitem"><a href="/news">Новости</a></li>
                         <li class="nav__subitem"><a href="/about">Об Ассоциации</a></li>
@@ -180,7 +192,7 @@
             <li class="nav__item">
                 <div class="nav__trigger">
                     Экспозиция по истории ВМФ
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
@@ -197,13 +209,13 @@
             <li class="nav__item museum">
                 <a href="/virtual-museum" class="nav__trigger">
                     Виртуальный музей
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/star-white.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/star.svg" alt=""/>
                 </a>
             </li>
             <li class="nav__item">
                 <div class="nav__trigger">
                     Флот Ассоциации
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
@@ -220,7 +232,7 @@
             <li class="nav__item">
                 <div class="nav__trigger">
                     Работа с молодежью
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
@@ -236,7 +248,7 @@
             <li class="nav__item">
                 <div class="nav__trigger">
                     Просветительские проекты
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr-white.svg" alt=""/>
+                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/arr.svg" alt=""/>
                 </div>
                 <div class="nav__submenu">
                     <ul>
@@ -250,10 +262,10 @@
                             <a href="/history-movies">Видео по истории флота</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="/writers">Писатели маринисты</a>
+                            <a href="/writers">Писатели-маринисты</a>
                         </li>
                         <li class="nav__subitem">
-                            <a href="/artists">Художники маринисты</a>
+                            <a href="/artists">Художники-маринисты</a>
                         </li>
                         <li class="nav__subitem"><a href="/sea-movies">Фильмы о море</a></li>
                         <li class="nav__subitem">

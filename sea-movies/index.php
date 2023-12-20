@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("Фильмы о море");
     <section class="article">
         <div class="container">
             <div class="bread">
-                <a href="/">Главная</a> <a href="#" class="active">Фильмы о море</a>
+                <a href="/">Главная</a> <a href="/sea-movies" class="active">Фильмы о море</a>
             </div>
             <?php $APPLICATION->IncludeComponent(
                 "bitrix:news",
