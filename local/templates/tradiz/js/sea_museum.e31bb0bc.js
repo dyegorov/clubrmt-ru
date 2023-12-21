@@ -18,7 +18,7 @@ if (links.length) {
 
 $(".slider").slick({
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     dots: true,
     fade: true,
     customPaging: function customPaging(slick, index) {
@@ -101,7 +101,7 @@ $(".cat--unit__for").slick({
     asNavFor: ".cat--unit__nav",
 });
 $(".cat--unit__nav").slick({
-    autoplay: false,
+    autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: ".cat--unit__for",
