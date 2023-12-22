@@ -8,4 +8,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} /robots.txt
 RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
 RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^history$ page42315160.html [NC]
+RewriteRule ^history/$ page42315160.html [NC]
+
 

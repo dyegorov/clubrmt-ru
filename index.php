@@ -245,8 +245,8 @@ $APPLICATION->SetTitle("Главная");
             <!--            <a href="/excursion" class="btn btn--accent btn--mobile">все экскурсии</a>-->
             <div class="headrow excursions__bottomrow">
                 <h3 class="h2 no-text-transform excursion disclaimer ">
-                    Все экскурсии проводятся бесплатно. Посетить экспозицию по истории ВМФ можно, только записавшись на
-                    экскурсию. </h3>
+                    Все экскурсии проводятся бесплатно. Посетить экспозицию об истории развития подводных сил ВМФ можно
+                    по предварительной записи. </h3>
                 <a href="/excursion" class="btn btn--accent">как посетить</a>
             </div>
         </div>

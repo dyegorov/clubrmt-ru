@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>http://clubrmt.tilda.ws/</loc>
-		<lastmod>2023-12-13T12:07:53+00:00</lastmod>
+		<lastmod>2023-12-20T18:55:34+00:00</lastmod>
+	</url>
+	<url>
+		<loc>http://clubrmt.tilda.ws/history</loc>
+		<lastmod>2023-12-21T07:30:35+00:00</lastmod>
 	</url>
 </urlset>
