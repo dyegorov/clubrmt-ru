@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("История создания флота");
 	<h1 class="h1">
 	История создания флота Ассоциации </h1>
 	<p class="subtitle">
-		 Ассоциация ведет планомерную работу по сохранению исторического наследия парусно-гребных шлюпов. Флот ассоциации, участвующий в регатах и походах, состоит из восстановленных деревянных парусно-гребных ЯЛов и катера ВМФ, а также реплик катеров, построенных по историческим чертежам. Собрание исторических деревянных парусно-гребных включает 3 катера, 1 вельбот и 3 шлюпки.
+		 Ассоциация ведет планомерную работу по сохранению исторического наследия парусно-гребных шлюпов. Флот ассоциации, участвующий в регатах и походах, состоит из восстановленных деревянных парусно-гребных ЯЛов и катера ВМФ, а также реплик катеров, построенных по историческим чертежам. Собрание исторических деревянных парусно-гребных судов включает 3 катера, 1 вельбот и 3 шлюпки.
 	</p>
 	<h3 class="h3">
 	16-весельный катер «Александр II» </h3>
@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("История создания флота");
 	</p>
 	<p>
 	</p>
-<div class="navigated__main cat--unit__for">
+	<div class="navigated__main cat--unit__for">
 		<div class="slide">
  <img alt="16vesel_kater_alexander2_4.jpg" src="/upload/medialibrary/e32/r6txunioyv37kja4riqr286awejv9goc.jpg" title="16vesel_kater_alexander2_4.jpg">
 		</div>
@@ -68,7 +68,7 @@ $APPLICATION->SetTitle("История создания флота");
 	<h3 class="h3">
 	14-весельный катер «Император» </h3>
  <img alt="14vesel_kater_imperator.jpg" src="/upload/medialibrary/887/eo4sjhy96kgf5ug66hw8srsb7fa6ya9r.jpg" title="14vesel_kater_imperator.jpg" class="floating">
-<p>
+	<p>
 		 Десятиметровый 14-ти весельный катер – это трехмачтовый легкий катер с латинским парусным вооружением. Такие лодки чаще всего сопровождали большие военные корабли в императорском дореволюционном флоте. Был такой катер, например, на знаменитом крейсере 1 ранга «Аврора».
 	</p>
 	<p>
@@ -76,7 +76,6 @@ $APPLICATION->SetTitle("История создания флота");
 	</p>
 	<p>
 	</p>
-
 	<p>
 	</p>
 	<h3 class="h3">
@@ -90,7 +89,6 @@ $APPLICATION->SetTitle("История создания флота");
 	</p>
 	<p>
 	</p>
-
 	<p>
 	</p>
 	<h3 class="h3">
@@ -120,7 +118,6 @@ $APPLICATION->SetTitle("История создания флота");
 	</p>
 	<p>
 	</p>
-
 	<p>
 	</p>
 	<h3 class="h3">
@@ -151,7 +148,7 @@ $APPLICATION->SetTitle("История создания флота");
 	</p>
 	<p>
 	</p>
-<div class="navigated__main cat--unit__for">
+	<div class="navigated__main cat--unit__for">
 		<div class="slide">
  <img alt="yal6_1.jpg" src="/upload/medialibrary/659/604wh55h00wrun1xd3huf0lqfw3pun7i.jpg" title="yal6_1.jpg">
 		</div>
@@ -163,7 +160,7 @@ $APPLICATION->SetTitle("История создания флота");
 		</div>
 	</div>
 	<div class="navigated__nav cat--unit__nav slider--blue">
-			<div class="slide">
+		<div class="slide">
  <img alt="yal6_1.jpg" src="/upload/medialibrary/659/604wh55h00wrun1xd3huf0lqfw3pun7i.jpg" title="yal6_1.jpg">
 		</div>
 		<div class="slide">
@@ -173,7 +170,6 @@ $APPLICATION->SetTitle("История создания флота");
  <img alt="yal6_3.jpg" src="/upload/medialibrary/684/1t4zyjdgj9iq4tehmlsqr0964721diem.jpg" title="yal6_3.jpg">
 		</div>
 	</div>
-	
 	<p>
 	</p>
 </div>

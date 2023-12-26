@@ -31,8 +31,16 @@ $APPLICATION->SetTitle("Почетные члены");
                 <div class="person__info">
                     <div class="person__name">Андреев Владимир Викто­рович</div>
                     <p>
-                        17-кратный чемпион мира по скоростному подводному плаванию,
-                        подполковник
+                        17-кратный рекордсмен мира по скоростному подводному плаванию, подполковник
+                    </p>
+                </div>
+            </div>
+
+<div class="person person--noimage">
+                <div class="person__info">
+                    <div class="person__name">Ирютин Сергей Николаевич</div>
+                    <p>
+                       Председатель Санкт-Петербургского Морского собрания, капитан 1-го ранга.
                     </p>
                 </div>
             </div>
@@ -41,8 +49,43 @@ $APPLICATION->SetTitle("Почетные члены");
                 <div class="person__info">
                     <div class="person__name">Кибкало Александр Александрович</div>
                     <p>
-                        Региональная общественная организация адмиралов и генералов
-                        военно-морского флота «Клуб адмиралов», контр-адмирал.
+                        Региональная общественная организация адмиралов и генералов военно-морского флота «Клуб адмиралов», контр-адмирал.
+                    </p>
+                </div>
+            </div>
+
+<div class="person person--noimage">
+                <div class="person__info">
+                    <div class="person__name">Кубынин Сергей Михайло­вич</div>
+                    <p>
+Ветеран ВМФ, капитан 1-го ранга
+                    </p>
+                </div>
+            </div>
+
+<div class="person person--noimage">
+                <div class="person__info">
+                    <div class="person__name">Прокофьев Игорь Михайлович</div>
+                    <p>
+Ветеран ВМФ, капитан 1-го ранга
+                    </p>
+                </div>
+            </div>
+
+<div class="person person--noimage">
+                <div class="person__info">
+                    <div class="person__name">Путинцев Юрий Александрович</div>
+                    <p>
+Ветеран Великой Отечественной войны, ветеран-подводник, капитан 1-го ранга
+                    </p>
+                </div>
+            </div>
+
+<div class="person person--noimage">
+                <div class="person__info">
+                    <div class="person__name">Черкашин Николай Андреевич</div>
+                    <p>
+Ветеран ВМФ, писатель-маринист, капитан 1-го ранга
                     </p>
                 </div>
             </div>
@@ -51,31 +94,12 @@ $APPLICATION->SetTitle("Почетные члены");
                 <div class="person__info">
                     <div class="person__name">Чиковани Владимир Окропирович</div>
                     <p>
-                        Председатель Совета ветеранов городского округа Истра,
-                        генерал-лейтенант.
+                        Председатель Совета ветеранов городского округа Истра, генерал-лейтенант
                     </p>
                 </div>
             </div>
 
-            <div class="person person--noimage">
-                <div class="person__info">
-                    <div class="person__name">Ирютин Сергей Николаевич</div>
-                    <p>
-                        Председатель Санкт-Петербургского Морского собрания, капитан 1-го
-                        ранга.
-                    </p>
-                </div>
-            </div>
-
-            <div class="person person--noimage">
-                <div class="person__info">
-                    <div class="person__name">Кубынин Сергей Михайло­вич</div>
-                    <p>
-                        Региональная общественная организация адмиралов и генералов
-                        военно-морского флота «Клуб адмиралов», контр-адмирал.
-                    </p>
-                </div>
-            </div>
+            
         </div>
     </section>
 

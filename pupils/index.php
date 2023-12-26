@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("Наши подопечные");
     <section class="article">
         <div class="container">
             <div class="bread">
-                <a href="/">Главная</a> <a href="/pupils" class="active">Наши подопечные</a>
+                <a href="/">Главная</a> <a href="#">Работа с молодежью</a><a href="/pupils" class="active">Наши подопечные</a>
             </div>
         </div>
         <div class="container container--article">
