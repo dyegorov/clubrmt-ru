@@ -314,8 +314,13 @@ p {
 
 .slick-initialized .slick-slide {
     height: calc(100vh - 100px);
-    min-height: calc(100vh - 60px);
     max-height: 800px;
+}
+
+@media (max-width: 768px) {
+    .topslider .slick-initialized .slick-slide {
+        min-height: calc(100vh - 60px);
+    }
 }
 
 .slide__item {
