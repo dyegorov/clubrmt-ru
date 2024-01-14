@@ -75,7 +75,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-distance="20" data-field-top-res-640-value="-84"
                      data-field-left-res-640-value="706"
                      data-field-top-res-960-value="30" data-field-left-res-960-value="706"
-                ><a class='tn-atom' href="/#photo">ФОТО</a></div>
+                ><a class='tn-atom' href="/virtual-museum/#photo">ФОТО</a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795821694463440271 t-animate'
                      data-elem-id='1694463440271'
                      data-elem-type='button' data-field-top-value="34" data-field-left-value="-24"
@@ -87,7 +87,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-distance="20" data-field-top-res-640-value="-84"
                      data-field-left-res-640-value="305"
                      data-field-top-res-960-value="30" data-field-left-res-960-value="-10"
-                ><a class='tn-atom' href="/#contacts">КОНТАКТЫ</a></div>
+                ><a class='tn-atom' href="/virtual-museum/#contacts">КОНТАКТЫ</a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795821694463440274 t396__elem--anim-hidden'
                      data-elem-id='1694463440274' data-elem-type='shape' data-field-top-value="87"
                      data-field-left-value="967" data-field-height-value="4" data-field-width-value="100"
@@ -149,7 +149,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-distance="20" data-field-top-res-640-value="-84"
                      data-field-left-res-640-value="485"
                      data-field-top-res-960-value="30" data-field-left-res-960-value="485"
-                ><a class='tn-atom' href="/#excursion">ЭКСКУРСИИ</a></div>
+                ><a class='tn-atom' href="/virtual-museum/#excursion">ЭКСКУРСИИ</a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795821694515464898 t396__elem--anim-hidden'
                      data-elem-id='1694515464898' data-elem-type='shape' data-field-top-value="87"
                      data-field-left-value="704" data-field-height-value="4" data-field-width-value="100"
@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':1,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':200,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
                      data-field-top-res-640-value="-35" data-field-left-res-640-value="468"
                      data-field-top-res-960-value="84" data-field-left-res-960-value="468"
-                ><a class='tn-atom' href="/#excursion"></a></div>
+                ><a class='tn-atom' href="/virtual-museum/#excursion"></a></div>
             </div>
         </div>
         <!-- /T396 --></div>
@@ -283,7 +283,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-distance="20" data-field-top-res-640-value="34"
                      data-field-left-res-640-value="354"
                      data-field-top-res-960-value="30" data-field-left-res-960-value="397"
-                ><a class='tn-atom' href="/#events">СОБЫТИЯ</a></div>
+                ><a class='tn-atom' href="/virtual-museum/#events">СОБЫТИЯ</a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831610122263462 t396__elem--anim-hidden'
                      data-elem-id='1610122263462' data-elem-type='shape' data-field-top-value="87"
                      data-field-left-value="840" data-field-height-value="4" data-field-width-value="100"
@@ -295,7 +295,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':1,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':200,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
                      data-field-top-res-640-value="-35" data-field-left-res-640-value="351"
                      data-field-top-res-960-value="84" data-field-left-res-960-value="392"
-                ><a class='tn-atom' href="/#events"></a></div>
+                ><a class='tn-atom' href="/virtual-museum/#events"></a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831609977405548 t-animate'
                      data-elem-id='1609977405548'
                      data-elem-type='button' data-field-top-value="34" data-field-left-value="700"
@@ -307,7 +307,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-distance="20" data-field-top-res-640-value="-84"
                      data-field-left-res-640-value="485"
                      data-field-top-res-960-value="30" data-field-left-res-960-value="540"
-                ><a class='tn-atom' href="/#excursion">ЭКСКУРСИИ</a></div>
+                ><a class='tn-atom' href="/virtual-museum/#excursion">ЭКСКУРСИИ</a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831610122496008 t396__elem--anim-hidden'
                      data-elem-id='1610122496008' data-elem-type='shape' data-field-top-value="87"
                      data-field-left-value="704" data-field-height-value="4" data-field-width-value="100"
@@ -319,7 +319,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':1,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':200,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
                      data-field-top-res-640-value="-35" data-field-left-res-640-value="468"
                      data-field-top-res-960-value="84" data-field-left-res-960-value="543"
-                ><a class='tn-atom' href="/#excursion"></a></div>
+                ><a class='tn-atom' href="/virtual-museum/#excursion"></a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831609977444725 t-animate'
                      data-elem-id='1609977444725'
                      data-elem-type='button' data-field-top-value="34" data-field-left-value="973"
@@ -331,7 +331,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-distance="20" data-field-top-res-640-value="-84"
                      data-field-left-res-640-value="706"
                      data-field-top-res-960-value="30" data-field-left-res-960-value="706"
-                ><a class='tn-atom' href="/#photo">ФОТО</a></div>
+                ><a class='tn-atom' href="/virtual-museum/#photo">ФОТО</a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831610122641981 t396__elem--anim-hidden'
                      data-elem-id='1610122641981' data-elem-type='shape' data-field-top-value="87"
                      data-field-left-value="968" data-field-height-value="4" data-field-width-value="100"
@@ -343,7 +343,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':1,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':200,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
                      data-field-top-res-640-value="-35" data-field-left-res-640-value="698"
                      data-field-top-res-960-value="84" data-field-left-res-960-value="698"
-                ><a class='tn-atom' href="/#photo"></a></div>
+                ><a class='tn-atom' href="/virtual-museum/#photo"></a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831609977545388 t-animate'
                      data-elem-id='1609977545388'
                      data-elem-type='button' data-field-top-value="34" data-field-left-value="-23"
@@ -355,7 +355,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-distance="20" data-field-top-res-640-value="-84"
                      data-field-left-res-640-value="305"
                      data-field-top-res-960-value="30" data-field-left-res-960-value="-10"
-                ><a class='tn-atom' href="/#contacts">КОНТАКТЫ</a></div>
+                ><a class='tn-atom' href="/virtual-museum/#contacts">КОНТАКТЫ</a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831610122666566 t396__elem--anim-hidden'
                      data-elem-id='1610122666566' data-elem-type='shape' data-field-top-value="87"
                      data-field-left-value="1083" data-field-height-value="4" data-field-width-value="100"
@@ -367,7 +367,7 @@ $APPLICATION->SetTitle("Виртуальный музей");
                      data-animate-sbs-opts="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':0,'ro':'0','bl':'0','ea':'easeOut','dt':'0'},{'ti':0,'mx':'0','my':'0','sx':0,'sy':0,'op':1,'ro':'0','bl':'0','ea':'','dt':'0'},{'ti':200,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','bl':'0','ea':'easeOut','dt':'0'}]"
                      data-field-top-res-640-value="-35" data-field-left-res-640-value="853"
                      data-field-top-res-960-value="84" data-field-left-res-960-value="853"
-                ><a class='tn-atom' href="/#contacts"></a></div>
+                ><a class='tn-atom' href="/virtual-museum/#contacts"></a></div>
                 <div class='t396__elem tn-elem tn-elem__6383795831694375211775' data-elem-id='1694375211775'
                      data-elem-type='shape' data-field-top-value="9" data-field-left-value="3"
                      data-field-height-value="65" data-field-width-value="74" data-field-axisy-value="top"
