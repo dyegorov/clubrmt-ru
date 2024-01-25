@@ -361,54 +361,7 @@ $APPLICATION->SetTitle("Главная");
             </div>
         </div>
     </section>
-    <!--    <section class="study">-->
-    <!--        <div class="container">-->
-    <!--            <h2 class="h2">военно-морские учебные заведения</h2>-->
-    <!--            <div class="sliderinit2 slider--blue virtual__slider">-->
-    <!--                <a href="/vuz-list/?ELEMENT_ID=21" class="news__item">-->
-    <!--                    <div class="news__img">-->
-    <!--                        <img src="/upload/iblock/e20/7n8673yir0l0lpphpg6z92mynrxrzzbh.jpg" alt="">-->
-    <!--                    </div>-->
-    <!--                    <div class="news__content">-->
-    <!--                        <h3 class="news__title">-->
-    <!--                            Военно-морской институт – морской корпус Петра Пеликого ВУНЦ ВМФ «Военно-морская-->
-    <!--                            академия» </h3>-->
-    <!--                        <div class="news__city">-->
-    <!--                            Cанкт-Петербург-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </a> <a href="/vuz-list/?ELEMENT_ID=20" class="news__item">-->
-    <!--                    <div class="news__img">-->
-    <!--                        <img src="/upload/iblock/ef2/ekr5q4ma8wqg7m3gymbqseu32alqh4uz.jpg" alt="">-->
-    <!--                    </div>-->
-    <!--                    <div class="news__content">-->
-    <!--                        <h3 class="news__title">Военно-морской политехнический институт — высшее военно-морское-->
-    <!--                            инженерное училище ВУНЦ ВМФ «Военно-морская академия»</h3>-->
-    <!--                        <div class="news__city">-->
-    <!--                            Cанкт-Петербург-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </a> <a href="/vuz-list/?ELEMENT_ID=19" class="news__item">-->
-    <!--                    <div class="news__img">-->
-    <!--                        <img src="/local/templates/tradiz/img/s3.b6fc5967.png" alt="">-->
-    <!--                    </div>-->
-    <!--                    <div class="news__content">-->
-    <!--                        <h3 class="news__title">-->
-    <!--                            Балтийский военно-морской институт имени адмирала Ф. Ф. Ушакова </h3>-->
-    <!--                        <div class="news__city">-->
-    <!--                            Калининград-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </a>-->
-    <!--            </div>-->
-    <!--            <div class="headrow excursions__bottomrow">-->
-    <!--                <h3 class="accent">-->
-    <!--                    Справочная информация о российских учебных заведениях, занимающихся подготовкой профессионалов-->
-    <!--                    морского дела и военно-морской службы </h3>-->
-    <!--                <a href="/vuz-list" class="btn btn--accent">все учебные заведения</a>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </section>-->
+
     <section class="study">
         <div class="container">
             <h2 class="h2">военно-морские учебные заведения</h2>
@@ -488,35 +441,37 @@ $APPLICATION->SetTitle("Главная");
         <div class="container">
             <h2 class="h2">партнеры ассоциации</h2>
             <div class="partners__grid">
-                <a href="#" class="partners__item">
+                <a href="https://vma.mil.ru/" class="partners__item" target="_blank" rel="noreferrer noopener">
                     <div class="partners__logo">
                         <img src="/local/templates/tradiz/img/par1.a8d99913.png" alt="">
                     </div>
                     <div class="partners__title">
                         Военно-морской политехнический университет «Военно-морская академия»
                     </div>
-                </a> <a href="#" class="partners__item">
+                </a> <a href="https://morskoesobranie.ru/" class="partners__item" target="_blank"
+                        rel="noreferrer noopener">
                     <div class="partners__logo">
                         <img src="/local/templates/tradiz/img/par2.d44da6e4.png" alt="">
                     </div>
                     <div class="partners__title">
                         Морское собрание Санкт-Петербурга
                     </div>
-                </a> <a href="#" class="partners__item">
+                </a> <a href="https://structure.mil.ru/structure/forces/type/navy/black_sea.htm" class="partners__item"
+                        target="_blank" rel="noreferrer noopener">
                     <div class="partners__logo">
                         <img src="/local/templates/tradiz/img/par3.773ab138.png" alt="">
                     </div>
                     <div class="partners__title">
                         Черноморский флот Российской Федерации
                     </div>
-                </a> <a href="#" class="partners__item">
+                </a> <a href="https://navalmuseum.ru/" class="partners__item" target="_blank" rel="noreferrer noopener">
                     <div class="partners__logo">
                         <img src="/local/templates/tradiz/img/par4.457d01bf.png" alt="">
                     </div>
                     <div class="partners__title">
                         Центральный военно-морской музей имени императора Петра Великого
                     </div>
-                </a> <a href="#" class="partners__item">
+                </a> <a href="https://m-istra-l.ru/" class="partners__item">
                     <div class="partners__logo">
                         <img src="/local/templates/tradiz/img/mistral.png" alt="">
                     </div>

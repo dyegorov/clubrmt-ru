@@ -36,6 +36,7 @@
     <noscript>
         <link rel="stylesheet" href="css/tilda-slds-1.4.min.css" type="text/css" media="all"/>
     </noscript>
+    <link rel="stylesheet" href="css/custom-events.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="css/tilda-zero-gallery-1.0.min.css" type="text/css" media="all"
           onerror="this.loaderr='y';"/>
     <script nomodule src="js/tilda-polyfill-1.0.min.js" charset="utf-8"></script>

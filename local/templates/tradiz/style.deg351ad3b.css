@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 *:after,
 *:before {
     display: block;
@@ -100,6 +101,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 .container__vuz--detail > table {
@@ -568,7 +571,7 @@ p {
     margin-bottom: 120px;
 }
 
-.excursions__bottomrow {
+div.excursions__bottomrow.excursions__bottomrow {
     margin-top: 20px;
 }
 
@@ -609,7 +612,7 @@ p {
         left: 0;
         right: 0;
         width: 85%;
-        height: 3px;
+        height: 2px;
         margin: 0 auto;
         /*background-color: #133469;*/
         background-color: #fff;
@@ -667,7 +670,7 @@ p {
         justify-content: space-between;
         align-items: center;
         height: 60px;
-        padding: 0 20px;
+        padding: 0 20px 0 2px;
     }
 
     .topslider {
@@ -731,8 +734,8 @@ p {
     }
 
     .slide__info {
-        left: 12px;
-        right: 12px;
+        left: 17px;
+        right: 17px;
         bottom: 15px;
         padding: 10px 20px 16px;
     }
@@ -755,7 +758,7 @@ p {
 
 @media (max-width: 834px) {
     .container {
-        padding: 0 20px;
+        padding: 0 17px;
     }
 
     .news__img {
@@ -805,7 +808,7 @@ p {
 
     .slide__title {
         font-size: 18px;
-        line-height: normal;
+        line-height: 115%;
         white-space: normal;
     }
 
@@ -846,13 +849,14 @@ p {
     .excursions .slide__item {
         height: 446px;
         font-size: 14px;
-        margin: 0 -20px 26px;
+        margin: 0 -20px 20px;
     }
 
     .excursions__bottomrow {
         font-size: 14px;
         flex-direction: column;
-        gap: 14px;
+        gap: 20px;
+        line-height: 115%;
     }
 
     .excursions__bottomrow .h2 {
@@ -874,8 +878,8 @@ p {
     }
 
     .headrow {
-        margin-top: 30px;
-        margin-bottom: 5px;
+        margin-top: 60px;
+        margin-bottom: 20px;
     }
 
     .news__img {
@@ -1006,7 +1010,7 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 115%;
 }
 
 .virtual__slider {
@@ -1114,7 +1118,7 @@ p {
     }
 
     .virtual .map {
-        margin-top: 42px !important;
+        margin-top: 60px !important;
         margin: 0 -20px;
         width: calc(100% + 40px);
     }
@@ -1131,7 +1135,8 @@ p {
 
 @media (max-width: 836px) {
     .capture {
-        margin-top: 22px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         font-size: 14px;
         line-height: 110%;
         letter-spacing: 0.28px;
@@ -1200,8 +1205,8 @@ p {
 
 @media (max-width: 836px) {
     .projects {
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     .projects .h2 {
@@ -1215,6 +1220,7 @@ p {
     .projects__info {
         font-size: 18px;
         line-height: normal;
+        padding: 32px 14px;
     }
 }
 
@@ -1243,7 +1249,7 @@ p {
 }
 
 .slider--blue .slick-slide {
-    margin: 15px 10px 30px;
+    margin: 15px 10px 0;
 }
 
 .slider--blue .slick-arrow {
@@ -1274,7 +1280,7 @@ p {
 
 @media (max-width: 768px) {
     .sliderinit2 {
-        margin-bottom: 36px;
+        margin-bottom: 0;
     }
 
     .sliderinit2 .slick-arrow {
@@ -1300,7 +1306,7 @@ p {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 60px;
 }
 
 .partners__title {
@@ -1314,7 +1320,7 @@ p {
 }
 
 .partners__logo {
-    height: 260px;
+    height: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1361,7 +1367,7 @@ p {
     background: #161388;
     padding-top: 120px;
     margin-top: 120px;
-    padding-bottom: 206px;
+    padding-bottom: 20px;
     color: #fff;
     position: relative;
     font-size: 18px;
@@ -1388,8 +1394,12 @@ p {
 }
 
 .footer__copy {
-    position: absolute;
-    left: 38px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer__author {
+    right: 38px;
     bottom: 24px;
     font-size: 18px;
     font-weight: 400;
@@ -1487,8 +1497,19 @@ p {
         font-weight: 400;
         line-height: 110%;
         letter-spacing: 0.28px;
+        position: absolute;
         left: 20px;
         bottom: 25px;
+    }
+
+    .footer__author {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: 0.28px;
+        position: absolute;
+        left: 20px;
+        bottom: 55px;
     }
 }
 
@@ -1552,7 +1573,7 @@ p {
     line-height: normal;
 }
 
-.no-top-padding {
+.no-top-padding.no-top-padding {
     padding-top: 0px;
 }
 
@@ -1742,6 +1763,7 @@ p {
     object-position: center;
     margin: 40px 0;
     display: block;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
@@ -1987,7 +2009,7 @@ p {
 
 .newspage__title {
     color: #161388;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Serif", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -2250,10 +2272,10 @@ img.vmuseum-list__item-img {
 div.vmuseum-list__item-left {
     padding: 20px;
     position: absolute;
-    left: 30px;
+    left: 17px;
     bottom: 30px;
-    right: 30px;
-    width: calc(100% - 60px);
+    right: 17px;
+    width: calc(100% - 34px);
     color: #fff;
     text-align: center;
     font-family: "PT Serif";
@@ -2339,7 +2361,7 @@ div.vmuseum-list__item:hover .div.vmuseum-list__item-right img {
 
 @media (max-width: 768px) {
     .map > iframe {
-        max-height: 240px !important;
+        max-height: 480px !important;
     }
 }
 
@@ -2498,6 +2520,83 @@ div.nav--mobile li.nav__item.active .nav__trigger img {
     .nav__submenu {
         bottom: 0;
     }
+}
+
+.slide__info {
+    border-radius: 5px;
+}
+
+.study .news__title {
+    font-size: 18px;
+}
+
+@media (min-width: 1024px) {
+    .footer .container {
+        display: grid;
+        grid-template-columns: 1fr 0.3fr 0.7fr;
+        row-gap: 200px;
+        grid-template-areas:
+                "logo socials contacts"
+                "copyright . developer";
+    }
+
+    .footer .footer__logo {
+        grid-area: logo;
+    }
+
+    .footer .footer__socials {
+        grid-area: socials;
+    }
+
+    .footer .footer__nav {
+        grid-area: contacts;
+    }
+
+    .footer .footer__copy {
+        grid-area: copyright;
+    }
+
+    .footer .footer__author {
+        grid-area: developer;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .footer__logo img {
+        width: 100%
+    }
+
+    .excursions {
+        margin-top: 40px;
+    }
+
+    .excursion.disclaimer {
+        font-size: 14px;
+        line-height: 115%;
+    }
+
+    .vmuseum-list__item-title.vmuseum-list__item-title {
+        font-size: 16px;
+    }
+
+    .excursions__bottomrow > h3.h2.opaque, div.capture.opaque {
+        font-size: 14px;
+    }
+
+    h3.accent {
+        font-size: 14px;
+        line-height: 115%;
+    }
+}
+
+.floating + div .newspage__title {
+    padding-top: 13px;
+}
+
+.container--article a,
+.container--article a:visited,
+.container--article a:hover {
+    color: #161388;
 }
 
 /*# sourceMappingURL=/style.97fcb138.css.map */

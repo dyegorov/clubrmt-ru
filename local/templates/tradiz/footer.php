@@ -2,18 +2,19 @@
 <footer class="footer">
     <div class="container">
         <div class="footer__logo">
-            <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-w.56ac2037.svg" alt="" class="v1"/>
+            <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-footer-desktop.svg" alt="" class="v1"/>
             <img src="<?= SITE_TEMPLATE_PATH ?>/img/logo-w2.beb564be.svg" alt="" class="v2"/>
         </div>
+        <div class="footer__socials">
+            <a href="https://vk.com/clubrmtru" target="_blank" rel="noreferrer noopener">
+                <img src="<?= SITE_TEMPLATE_PATH ?>/img/vk.svg" alt="" class=""/>
+            </a>
+            <a href="https://t.me/clubrmt" target="_blank" rel="noreferrer noopener">
+                <img src="<?= SITE_TEMPLATE_PATH ?>/img/tg.svg" alt="" class=""/>
+            </a>
+        </div>
         <div class="footer__nav">
-            <div class="footer__socials">
-                <a href="https://vk.com/clubrmtru" target="_blank" rel="noreferrer noopener">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/vk.svg" alt="" class=""/>
-                </a>
-                <a href="https://t.me/clubrmt" target="_blank" rel="noreferrer noopener">
-                    <img src="<?= SITE_TEMPLATE_PATH ?>/img/tg.svg" alt="" class=""/>
-                </a>
-            </div>
+
             <div class="footer__contacts">
                 <div class="footer__title">Контакты</div>
                 <div>
@@ -27,6 +28,7 @@
             </div>
         </div>
         <div class="footer__copy">&copy; 2023. Все права защищены</div>
+        <div class="footer__author">Разработка сайта Parsuna</div>
     </div>
 </footer>
 

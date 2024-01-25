@@ -5,7 +5,7 @@ $APPLICATION->SetTitle("Экспонаты");
 <section class="article structure">
     <div class="container">
         <div class="bread">
-            <a href="/">Главная</a> <a href="#">Экспозиция по истории ВМФ</a> <a href="#" class="active">Экспонаты</a>
+            <a href="/">Главная</a> <a href="#">Экспозиция по истории ВМФ</a> <a href="/exponats" class="active">Экспонаты</a>
         </div>
 
 
